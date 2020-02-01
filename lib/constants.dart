@@ -7,7 +7,7 @@ const kAmarelinho = Color(0xFFF6BE08);
 const klightYellow = Color(0xFFF8FAC4);
 
 const kSendButtonTextStyle = TextStyle(
-  color: Colors.lightBlueAccent,
+  color: kDropYellow,
   fontWeight: FontWeight.bold,
   fontSize: 18.0,
 );
@@ -20,7 +20,7 @@ const kMessageTextFieldDecoration = InputDecoration(
 
 const kMessageContainerDecoration = BoxDecoration(
   border: Border(
-    top: BorderSide(color: Colors.lightBlueAccent, width: 2.0),
+    top: BorderSide(color: klightYellow, width: 2.0),
   ),
 );
 
