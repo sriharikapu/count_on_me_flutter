@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 const kGoldenYellow = Color(0xFFFFED26);
 const kRubyRed = Color(0xFFE14143);
 const kDropYellow = Color(0xFFF9B02A);
+const kAmarelinho = Color(0xFFF6BE08);
+const klightYellow = Color(0xFFF8FAC4);
 
 const kSendButtonTextStyle = TextStyle(
   color: Colors.lightBlueAccent,

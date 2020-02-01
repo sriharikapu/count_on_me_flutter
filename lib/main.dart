@@ -11,13 +11,13 @@ class CountOnMeFlutter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp (
-      initialRoute: '/welcome',
+      initialRoute: WelcomeScreen.id,
       routes: {
-        '/welcome': (context) => WelcomeScreen(),
-        '/login_donor': (context) => LoginScreen(),
-        '/login_patient': (context) =>LoginScreen(),
-        '/register': (context) =>RegistrationScreen(),
-        '/chat': (context) => ChatScreen(),
+        WelcomeScreen.id: (context) => WelcomeScreen(),
+        LoginScreen.id: (context) => LoginScreen(),
+        LoginScreen.id: (context) =>LoginScreen(),
+        RegistrationScreen.id: (context) =>RegistrationScreen(),
+        ChatScreen.id: (context) => ChatScreen(),
       },
     );
   }
