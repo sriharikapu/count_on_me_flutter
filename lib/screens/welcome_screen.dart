@@ -49,11 +49,13 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
               child: Column (
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Hero(
-                    tag: 'logo',
-                    child: Container (
-                      child: Image.asset('images/logo-transparent.png'),
-                      height: 200),
+                  Flexible(
+                    child: Hero(
+                      tag: 'logo',
+                      child: Container (
+                        child: Image.asset('images/logo-transparent.png'),
+                        height: 400),
+                    ),
                   ),
                   Text ('Count on Me ', style: TextStyle (fontSize: 60.0, color: Color (0xFFFFFFFF)),),
                   Text('Platelets to Patients', style: TextStyle (fontSize: 20, color: Colors.white, letterSpacing: 2.5),),

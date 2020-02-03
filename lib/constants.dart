@@ -5,10 +5,11 @@ const kRubyRed = Color(0xFFE14143);
 const kDropYellow = Color(0xFFF9B02A);
 const kAmarelinho = Color(0xFFF6BE08);
 const klightYellow = Color(0xFFF8FAC4);
+const kpastelBlue = Color(0xFFA7C6D4);
 
 const kSendButtonTextStyle = TextStyle(
-  color: kDropYellow,
-  fontWeight: FontWeight.bold,
+  color: Colors.black,
+  fontWeight: FontWeight.w900,
   fontSize: 18.0,
 );
 
@@ -19,8 +20,9 @@ const kMessageTextFieldDecoration = InputDecoration(
 );
 
 const kMessageContainerDecoration = BoxDecoration(
+  color: Colors.white,
   border: Border(
-    top: BorderSide(color: klightYellow, width: 2.0),
+    top: BorderSide(color: Colors.grey, width: 2.0),
   ),
 );
 
