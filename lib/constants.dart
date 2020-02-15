@@ -44,3 +44,41 @@ const kTextInputDecor = InputDecoration(
     borderRadius: BorderRadius.all(Radius.circular(32.0)),
   ),
 );
+
+const kTempTextStyle = TextStyle(
+  fontFamily: 'Spartan MB',
+  fontSize: 100.0,
+  color: Colors.white70,
+);
+
+const kMessageTextStyle = TextStyle(
+  fontFamily: 'Spartan MB',
+  fontSize: 40.0,
+);
+
+const kButtonTextStyle = TextStyle(
+  fontSize: 20.0,
+  fontFamily: 'Spartan MB',
+  color: kRubyRed,
+);
+
+const kConditionTextStyle = TextStyle(
+  fontSize: 80.0,
+
+);
+
+const kApiKey = '442eeeaf284e58f39868ab0d8332e120';
+
+const kOpenWeatherMapUrl = 'https://api.openweathermap.org/data/2.5/weather';
+
+const kTextFieldInputDecor = InputDecoration(
+  filled: true,
+  fillColor: Colors.white70,
+  icon: Icon(Icons.search, color: Colors.deepOrange,),
+  hintText: 'Enter a Goerli Private Key',
+  hintStyle: TextStyle(
+    color: Colors.orange,
+  ),
+  border: OutlineInputBorder(
+      borderRadius: BorderRadius.all(Radius.circular(10)),
+      borderSide: BorderSide.none),);

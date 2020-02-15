@@ -1,6 +1,7 @@
 import 'package:count_on_me_flutter/constants.dart';
 import 'package:count_on_me_flutter/screens/login_screen.dart';
 import 'package:count_on_me_flutter/screens/registration_screen.dart';
+import 'package:count_on_me_flutter/screens/web3experiment.dart';
 import 'package:flutter/material.dart';
 import 'package:count_on_me_flutter/components/rounded_button.dart';
 import 'package:count_on_me_flutter/components/red_rounded_button.dart';
@@ -70,6 +71,10 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
                     titleOfButton: 'Sign up',
                     onPressed: () {
                       Navigator.pushNamed(context, RegistrationScreen.id);},),
+                  LittleBlackButton(
+                    titleOfButton: 'Sign up with Web3',
+                    onPressed: () {
+                      Navigator.pushNamed(context, Web3Screen.id);},),
                 ]
               ),
             ),

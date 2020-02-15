@@ -1,6 +1,7 @@
 import 'package:count_on_me_flutter/screens/chat_screen.dart';
 import 'package:count_on_me_flutter/screens/login_screen.dart';
 import 'package:count_on_me_flutter/screens/registration_screen.dart';
+import 'package:count_on_me_flutter/screens/web3experiment.dart';
 import 'package:count_on_me_flutter/screens/welcome_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -17,6 +18,7 @@ class CountOnMeFlutter extends StatelessWidget {
         LoginScreen.id: (context) => LoginScreen(),
         RegistrationScreen.id: (context) =>RegistrationScreen(),
         ChatScreen.id: (context) => ChatScreen(),
+        Web3Screen.id: (context) => Web3Screen(),
       },
     );
   }
